@@ -50,6 +50,7 @@ body{
 .header{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 .navbar-ul{
     display: flex;
@@ -75,14 +76,6 @@ body{
     width: 100%;
     margin-top: 40px;
 }
-.block{
-    
-    
-    
- 
-  
-}
-    
 
 
 .title1{
@@ -101,9 +94,8 @@ body{
 }
 .block1,.block2,.block3{
     margin: 10px;
-   
-    
-    
+    flex-wrap: wrap;
+         
 }
 
 .paragrap1{
@@ -114,9 +106,50 @@ body{
 .paragrap2{
     margin-left: 400px;
     margin-top: 50px;
-    font-size: 40px;
+    font-size: 24px;
 }
 .section1{
     margin-top: 50px;
     display: flex;
+   
 }
+.paragrap3{
+    font-size: 30px;
+    margin-top: 70px;
+    margin-left: 65px;
+    color:#707070 ;
+    text-decoration:#707070  ;
+    
+}
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    
+}
+.link1{
+    color: #707070;
+    
+
+}
+.image4{
+    margin: 40px;
+    margin-top: 100px;
+    margin-left: 400px;
+
+}
+.image5{
+    margin-top: 100px;
+}
+
+    
+.block4,.block5,.block6{
+
+    margin: 70px;
+    margin-top: 100px;
+
+}
+    
+
+
