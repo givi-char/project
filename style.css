@@ -131,7 +131,6 @@ footer{
     color: white;
     width: 100%;
     flex-wrap: wrap;
-   
     
 }
 .link1{
@@ -148,7 +147,6 @@ footer{
 .image5{
     margin-top: 100px;
 }
-
     
 .block4,.block5,.block6{
 
@@ -160,17 +158,13 @@ footer{
     .section2,.section1,.header,.footer,.section3,.block,.title1,.image13{
         display: none;
 
-    }
-       
-    
+    }   
   } 
     @media   (max-width: 1930px)   {
         .section3{
             display: none;
         }
     }
-
-
     @media (max-width: 600px){
         .section3{
             display: block;
@@ -234,12 +228,6 @@ footer{
         }
       
     }
-
-
-
-
-
-
 @media (max-width: 1010px){
     .section2,.section1,.header,.footer,.section3,.block,.title1{
         flex-wrap: wrap;
