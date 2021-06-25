@@ -110,15 +110,19 @@ body{
 }
 .section1{
     margin-top: 50px;
-    display: flex;
-   
+    display: flex; 
+}
+.section2{
+    margin-top: 50px;
+    display: flex; 
+
 }
 .paragrap3{
     font-size: 30px;
     margin-top: 70px;
     margin-left: 65px;
-    color:#707070 ;
-    text-decoration:#707070  ;
+    color: #707070;
+    text-decoration: #707070;
     
 }
 footer{
@@ -126,6 +130,8 @@ footer{
     background-color: black;
     color: white;
     width: 100%;
+    flex-wrap: wrap;
+   
     
 }
 .link1{
@@ -150,6 +156,101 @@ footer{
     margin-top: 100px;
 
 }
+@media (max-width: 601px){
+    .section2,.section1,.header,.footer,.section3,.block,.title1,.image13{
+        display: none;
+
+    }
+       
     
+  } 
+    @media   (max-width: 1930px)   {
+        .section3{
+            display: none;
+        }
+    }
+
+
+    @media (max-width: 600px){
+        .section3{
+            display: block;
+        }
+        .footer{
+            width: 100%;
+            background-color:black ;
+        }
+        .paragrap4{
+            font-size: 40px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .span1{
+            font-size: 20px;
+            margin-left: 50%;
+            margin-top: 70px;
+            
+            color: #707070;
+        }
+        .picture{
+            width: 100%;
+        }
+        
+        
+        .paragrap5{
+            font-size: 30px;
+            margin-bottom: 30px;
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+        .picture1{
+            margin-left: 20px;
+        }
+        .picture2{
+            margin-left: 100px;
+
+        }
+        .image4,.image5{
+            display: flex;
+            margin-right: 200px;
+            margin: 5px;
+           margin-top: 150px;
+        }
+        .picture4{
+            width: 100%;
+        }
+      
+        .paragrap1{
+            width: 100%;
+        }
+        .paragrap2{
+            margin-left: 250px;
+            font-size: 20px;
+        }
+        .link3{
+            text-decoration: none;
+           list-style: none;
+           color:#707070 ;
+           margin-bottom: 20px;
+        }
+      
+    }
+
+
+
+
+
+
+@media (max-width: 1010px){
+    .section2,.section1,.header,.footer,.section3,.block,.title1{
+        flex-wrap: wrap;
+    }
+}
+
+        
+
+
+    
+    
+
 
 
